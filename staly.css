@@ -1,5 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 nav{
     display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
 }
 
 
@@ -8,6 +17,7 @@ nav{
 .nav__logo { 
     width: 35px;
     height: 35px;
+    margin: 5px;
     background-color: aqua;
 }
 
